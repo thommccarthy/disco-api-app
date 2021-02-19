@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'; 
 import './App.css';
+// import 'SearchBar' from './SearchBar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+     return(
+       <div>
+       <h2 className='tc f3'>the</h2>
+       <h1 className='f1 tc dark-red bg-light-yellow o-40 header shadow-3'>Crate Digger</h1>
+       {/* <SearchBar /> */}
+       </div>
+     )
+  } 
+ 
+
 }
 
 export default App;
