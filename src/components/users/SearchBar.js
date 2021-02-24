@@ -12,7 +12,7 @@ class SearchBar extends Component {
           <input
             type='search'
             placeholder='type something'
-            className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-60'
+            className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-60 relative'
           />
         </form>
       </div>

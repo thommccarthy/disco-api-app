@@ -3,5 +3,13 @@
   position: relative;
 }
 
-.navlist {
+.navflex {
+  display: flex;
+  flex-direction: row;
+}
+
+.navlinks {
+  display: flex;
+
+  justify-content: flex-end;
 }
