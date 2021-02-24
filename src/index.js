@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import 'SearchBar' from './SearchBar';
 
 ReactDOM.render(
   <React.StrictMode>

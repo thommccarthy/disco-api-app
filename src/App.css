@@ -1,12 +1,7 @@
-.header {
-  padding: 50px;
-  font-size: 4em;
+.searchBox {
+  display: inline-block;
+  position: relative;
 }
 
-h2 {
-  position: relative;
-  top: 77px;
-  width: 75px;
-  margin-left: auto;
-  margin-right: auto;
+.navlist {
 }
